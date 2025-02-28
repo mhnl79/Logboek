@@ -1,0 +1,65 @@
+Logboek van Testresultaten
+Datum: 28 Februari 2025
+
+Project: Django 5 Website Project
+
+HomeViewTests
+1. Testnaam: Home view status code
+
+Doel: Testen of de home view correct werkt en de juiste statuscode retourneert.
+
+Testscenario: Verstuur een GET-verzoek naar de URL van de 'home' view.
+
+Verwachte Resultaten: Responsstatuscode is 200 (OK).
+
+Werkelijke Resultaten: Responsstatuscode is 200 (OK).
+
+Status: Geslaagd
+
+Opmerkingen: De home view functioneert zoals verwacht en retourneert de juiste statuscode.
+
+2. Testnaam: Home template gebruikt
+
+Doel: Testen of de juiste template wordt gebruikt voor de home view.
+
+Testscenario: Verstuur een GET-verzoek naar de URL van de 'home' view.
+
+Verwachte Resultaten: 'home.html' template wordt gebruikt in de respons.
+
+Werkelijke Resultaten: 'home.html' template wordt gebruikt in de respons.
+
+Status: Geslaagd
+
+Opmerkingen: De juiste template wordt gebruikt voor de home view.
+
+ContactViewTests
+1. Testnaam: Contact view status code
+
+Doel: Testen of de contact view correct werkt en de juiste statuscode retourneert.
+
+Testscenario: Verstuur een GET-verzoek naar de URL van de 'contact' view.
+
+Verwachte Resultaten: Responsstatuscode is 200 (OK).
+
+Werkelijke Resultaten: Responsstatuscode is 200 (OK).
+
+Status: Geslaagd
+
+Opmerkingen: De contact view functioneert zoals verwacht en retourneert de juiste statuscode.
+
+2. Testnaam: Contact template gebruikt
+
+Doel: Testen of de juiste template wordt gebruikt voor de contact view.
+
+Testscenario: Verstuur een GET-verzoek naar de URL van de 'contact' view.
+
+Verwachte Resultaten: 'contact.html' template wordt gebruikt in de respons.
+
+Werkelijke Resultaten: 'contact.html' template wordt gebruikt in de respons.
+
+Status: Geslaagd
+
+Opmerkingen: De juiste template wordt gebruikt voor de contact view.
+
+Algemene Conclusie
+Alle uitgevoerde tests zijn geslaagd en de views functioneren zoals verwacht. De juiste templates worden gebruikt en de responsstatuscodes zijn zoals verwacht.
